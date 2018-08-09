@@ -14,10 +14,10 @@ Edit windows environment and ADD:
  
 In Eclipse, under C/C++ Build -> Settings:
  - Under GCC C++ Compiler -> Includes, add Include path (-l) 
-    -- "C:\Users\Jugnu\Downloads\SDL2-devel-2.0.8-mingw\SDL2-2.0.8\x86_64-w64-mingw32\include\SDL2"
+    - "C:\Users\Jugnu\Downloads\SDL2-devel-2.0.8-mingw\SDL2-2.0.8\x86_64-w64-mingw32\include\SDL2"
  - Under MinGW Linker -> Libraries, add Libraries (-l)
-    -- mingw32
-	-- SDL2Main
-	-- SDL2
+    - mingw32
+	- SDL2Main
+	- SDL2
 - Under MinGW Linker -> Libraries, add to Library search path (-L)
-    -- "C:\Users\Jugnu\Downloads\SDL2-devel-2.0.8-mingw\SDL2-2.0.8\x86_64-w64-mingw32\lib"
+    - "C:\Users\Jugnu\Downloads\SDL2-devel-2.0.8-mingw\SDL2-2.0.8\x86_64-w64-mingw32\lib"
